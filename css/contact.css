@@ -1,0 +1,46 @@
+.line {
+  border-left: 1px;
+  border-right: 1px;
+  color: #ccc;
+  /* height: 500px; */
+}
+form {
+  width: 400px;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+textarea {
+  width: calc(100% - 20px);
+  height: 120px;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+select {
+  width: calc(100% - 20px);
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+input {
+  width: calc(100% - 20px);
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="radio"] {
+  margin-left: 20px;
+}
